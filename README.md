@@ -1,11 +1,17 @@
-BASIC-ANDROID-_EX_01_Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
-AIM:
+# BASIC-ANDROID-_EX_01_Implementation of a Hello world Activity using all lifecycles methods using Android Studio.
 
+
+## AIM:
 To create Hello world Activity using all lifecycles methods to display messages using android studio.
-EQUIPMENTS REQUIRED:
+
+
+## EQUIPMENTS REQUIRED:
 
 Android Studio(Min. required Artic Fox)
-ALGORITHM:
+
+
+
+## ALGORITHM:
 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
@@ -20,11 +26,16 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
-PROGRAM
-DEVELOPED BY : MAHISHA S
-REGISTER NO: 212222040095
-MainActivity.java:
 
+
+## PROGRAM
+
+### DEVELOPED BY : MAHISHA S
+### REGISTER NO: 212222040095
+
+
+### MainActivity.java:
+```
 package com.example.andriodlifecycle;
 
 import android.os.Bundle;
@@ -88,9 +99,10 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+```
 
-Activity_Main.XML:
-
+### Activity_Main.XML:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -110,12 +122,26 @@ Activity_Main.XML:
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
-OUTPUT:
-OnCreate Executed:
-OnPause Executed:
-OnResume Executed:
-OnRestart Executed:
-OnStart Executed:
-RESULT:
+## OUTPUT:
+## OnCreate Executed:
+<img src="https://github.com/user-attachments/assets/3fc7a4af-da6f-47a2-a9ce-2a0d5357dd0b" width="400">
+
+## OnPause Executed:
+<img src="https://github.com/user-attachments/assets/148997cf-afb3-4480-9750-24e5717678b6" width="400">
+
+## OnResume Executed:
+<img src="https://github.com/user-attachments/assets/cc8d2106-38a4-4911-8fe6-32735466f104" width="400">
+
+## OnRestart Executed:
+<img src="https://github.com/user-attachments/assets/c0f5fb51-3e91-4c53-a764-5caee17ef75f" width="400">
+
+## OnStart Executed:
+<img src="https://github.com/user-attachments/assets/df5260af-6949-4593-9ffe-0677e2bc5c46" width="400">
+
+
+
+
+## RESULT:
 Thus a program to implement the various life cycles of an activity is written and successfully executed using Android Studio.
